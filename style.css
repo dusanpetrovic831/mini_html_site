@@ -1,0 +1,115 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(pupin_srbija.jpg);
+    background-position: center;
+    background-repeat: center;
+    background-attachment: fixed;
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#wrapper {
+    width: 960px;
+    margin: 10px auto 20px;
+    padding: 15px;
+    overflow: hidden;
+    box-shadow: grey;
+    border-radius: 7px;
+    background: rgba(93, 93, 99, 0.774);
+}
+p {
+    text-indent: 8px;
+}
+h2, h3, h4 {
+    font-weight: 400;
+}
+h1 {
+    font-weight: 400;
+    font-size: 2.2em;
+}
+h1 {
+    font-weight: 400;
+    font-size: 1.8em;
+}
+header {
+    font-weight: bold;
+    color:rgba(241, 237, 3, 0.438);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+nav {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(241, 237, 3, 0.438);
+    width: 250px;
+    float: left;
+    border-style: ridge;
+    border-color: black;
+}
+nav a {
+    text-decoration: none;
+}
+main {
+    float: right;
+    witdh: 680px;
+    padding: 10px;
+    margin-left: 10px;
+}
+#content {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px 0 20px;
+    box-shadow: 2px 2px 4px grey;
+    background: rgba(241, 237, 3, 0.438)
+}
+#slika img {
+    padding-top: 10px;
+    image-rendering: center;
+}
+strong {
+    font-weight: bold;
+    font-size: 18px;
+}
+main p.em {
+    color: rgb(11, 1, 54);
+    font-weight: 700;
+    width: 600px;
+    margin: 20px auto;
+    text-indent: 10px;
+    text-decoration: underline;
+}
+#second {
+    float: right;
+    width: 680px;
+}
+hr {
+    border: 1px dashed;
+}
+second h3 {
+    margin-top: 80px;
+
+}
+#second img {
+    image-orientation: center;
+    display: inline;
+    margin: 50px;
+}
+h4 {
+    font-size: 1.8em;
+}
+#table h4 {
+    text-align: center;
+    color:  rgb(11, 1, 54);
+    font-weight: lighter;
+}
+table,th,td {
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 10px;
+    background: rgba(241, 237, 3, 0.438);
+}
+th {
+    background:rgb(11, 1, 54);
+}
